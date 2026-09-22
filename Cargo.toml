@@ -1,0 +1,9 @@
+[package]
+name = "dotenv-vault"
+version = "1.0.0"
+edition = "2021"
+description = "Local encrypted .env vault: AES-256-CTR + HMAC-SHA256, key files, encrypted diff, rotation"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
